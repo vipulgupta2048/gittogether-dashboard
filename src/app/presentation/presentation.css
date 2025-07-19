@@ -1,0 +1,190 @@
+/* Custom styles for the reveal.js presentation */
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal .slides section h1,
+.reveal .slides section h2,
+.reveal .slides section h3 {
+  text-align: center;
+}
+
+.reveal .slides {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.reveal .slides section ul {
+  margin-left: 0;
+  list-style: none;
+}
+
+.reveal .slides section li {
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.reveal .backgrounds {
+  filter: contrast(1.1) brightness(0.8);
+}
+
+.reveal .slide-background {
+  opacity: 0.9 !important;
+}
+
+.reveal blockquote {
+  background: rgba(0, 0, 0, 0.6);
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.reveal .grid {
+  display: grid;
+}
+
+.reveal .grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.reveal .grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.reveal .gap-6 {
+  gap: 1.5rem;
+}
+
+.reveal .gap-8 {
+  gap: 2rem;
+}
+
+.reveal .space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.reveal .space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+.reveal .space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.reveal .space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.reveal .text-center {
+  text-align: center;
+}
+
+.reveal .bg-black {
+  background-color: rgb(0, 0, 0);
+}
+
+.reveal .bg-opacity-60 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.reveal .p-4 {
+  padding: 1rem;
+}
+
+.reveal .p-6 {
+  padding: 1.5rem;
+}
+
+.reveal .rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.reveal .mb-4 {
+  margin-bottom: 1rem;
+}
+
+.reveal .mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.reveal .mb-8 {
+  margin-bottom: 2rem;
+}
+
+.reveal .mt-2 {
+  margin-top: 0.5rem;
+}
+
+.reveal .mt-4 {
+  margin-top: 1rem;
+}
+
+.reveal .mt-8 {
+  margin-top: 2rem;
+}
+
+/* Color utilities */
+.reveal .text-blue-400 {
+  color: #60a5fa;
+}
+
+.reveal .text-green-400 {
+  color: #4ade80;
+}
+
+.reveal .text-purple-400 {
+  color: #c084fc;
+}
+
+.reveal .text-yellow-400 {
+  color: #facc15;
+}
+
+.reveal .text-gray-200 {
+  color: #e5e7eb;
+}
+
+.reveal .text-gray-300 {
+  color: #d1d5db;
+}
+
+.reveal .text-gray-400 {
+  color: #9ca3af;
+}
+
+.reveal .text-white {
+  color: #ffffff;
+}
+
+/* Font sizes */
+.reveal .text-sm {
+  font-size: 0.875rem;
+}
+
+.reveal .text-lg {
+  font-size: 1.125rem;
+}
+
+.reveal .text-xl {
+  font-size: 1.25rem;
+}
+
+.reveal .text-3xl {
+  font-size: 1.875rem;
+}
+
+.reveal .text-4xl {
+  font-size: 2.25rem;
+}
+
+.reveal .text-5xl {
+  font-size: 3rem;
+}
+
+.reveal .text-6xl {
+  font-size: 3.75rem;
+}
+
+.reveal .font-bold {
+  font-weight: 700;
+}
