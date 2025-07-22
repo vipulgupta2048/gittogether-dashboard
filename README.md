@@ -64,3 +64,5 @@ This project is configured for GitHub Pages deployment:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+Contact the Maintainer: [@vipulgupta2048](https://github.com/vipulgupta2048) for any feature requests by linking GitHub Issues.
