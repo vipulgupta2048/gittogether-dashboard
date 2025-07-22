@@ -14,9 +14,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  NODE_ENV: production
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,27 +27,15 @@ jobs:
           node-version: '20'
           cache: 'npm'
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
       - name: Install dependencies
         run: npm ci
       
-      - name: Lint code
-        run: npm run lint --if-present
-        continue-on-error: true
-      
       - name: Build with Next.js
+        env:
+          NODE_ENV: production
         run: |
           npm run build
           touch out/.nojekyll
-      
-      - name: Verify build output
-        run: |
-          ls -la out/
-          echo "Build completed successfully!"
-          echo "Checking for index.html..."
-          ls -la out/index.html
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
