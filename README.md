@@ -8,11 +8,6 @@ A Next.js dashboard application built to visualize community metrics and growth 
 
 This dashboard displays real community data including member growth, event timelines, and organizer profiles. Built as a static site using Next.js App Router with TypeScript, it showcases data visualization techniques and responsive design patterns.
 
-**Key Metrics Displayed:**
-- 4,986+ community members
-- 11+ events hosted
-- 1,400+ total attendees
-- 4.7/5 community rating
 
 ## Technical Stack
 
@@ -33,35 +28,6 @@ This dashboard displays real community data including member growth, event timel
 - **Organizer Profiles**: Individual pages for community leaders
 - **Photo Gallery**: Event documentation and community highlights
 - **Presentation Mode**: Full-screen slide presentation of community journey
-
-### Technical Features
-- Static site generation for optimal performance
-- Responsive design with mobile-first approach
-- TypeScript integration for type safety
-- Automated deployment pipeline with GitHub Actions
-- SEO optimization with proper meta tags
-
-## Project Structure
-
-```
-src/
-├── app/                    # Next.js App Router pages
-│   ├── page.tsx           # Dashboard homepage
-│   ├── about/             # Community information
-│   ├── events/            # Event timeline
-│   ├── gallery/           # Photo galleries
-│   ├── mission/           # Mission statement
-│   ├── organizers/        # Organizer profiles
-│   ├── presentation/      # Presentation mode
-│   ├── layout.tsx         # Root layout
-│   └── globals.css        # Global styles
-├── components/            # Reusable React components
-│   ├── CommunityStats.tsx
-│   ├── GrowthChart.tsx
-│   ├── Navigation.tsx
-│   └── ...
-└── .github/workflows/     # CI/CD configuration
-```
 
 ## Getting Started
 
@@ -85,16 +51,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-### Available Scripts
-
-```bash
-npm run dev        # Development server with Turbopack
-npm run build      # Production build
-npm run start      # Start production server
-npm run lint       # Run ESLint
-npm run deploy     # Build for deployment
-```
-
 ## Deployment
 
 ### GitHub Pages
@@ -105,48 +61,6 @@ This project is configured for GitHub Pages deployment:
 3. Select "GitHub Actions" as source
 4. Push changes to trigger deployment
 
-### Other Platforms
-- **Vercel**: Connect GitHub repository for automatic deployments
-- **Netlify**: Import project and deploy with default settings
-
-## Development
-
-### Key Components
-
-| Component | File | Description |
-|-----------|------|-------------|
-| Navigation | `Navigation.tsx` | Site navigation with mobile menu |
-| Community Stats | `CommunityStats.tsx` | Animated metric cards |
-| Growth Chart | `GrowthChart.tsx` | Member growth visualization |
-| Recent Events | `RecentEvents.tsx` | Event timeline component |
-
-### Data Structure
-Community data is stored as static JSON structures within components, including:
-- Member growth timeline
-- Event details with dates and speakers
-- Organizer information and achievements
-- Photo gallery collections
-
-### Styling
-- Tailwind CSS for utility-first styling
-- Responsive design with mobile-first approach
-- Dark mode support through CSS variables
-- Custom animations using Framer Motion
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/new-feature`)
-5. Create Pull Request
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-- **Repository**: [github.com/vipulgupta2048/gittogether-dashboard](https://github.com/vipulgupta2048/gittogether-dashboard)
-- **Community**: [GitTogether Delhi](https://gh.io/delhi)
-- **Maintainer**: [@vipulgupta2048](https://github.com/vipulgupta2048)
