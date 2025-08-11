@@ -2,6 +2,8 @@
 
 > **[Live Demo](https://vipulgupta2048.github.io/gittogether-dashboard/)**
 
+<img width="629" height="583" alt="Screenshot 2025-08-11 at 5 24 18 PM" src="https://github.com/user-attachments/assets/7450c7aa-6ec9-4034-8f1e-834f237f7eea" />
+
 A Next.js dashboard application built to visualize community metrics and growth data for the GitTogether Delhi developer community. This project demonstrates modern React patterns, TypeScript implementation, and static site deployment workflows.
 
 ## Project Overview
@@ -21,7 +23,8 @@ This dashboard displays real community data including member growth, event timel
 
 ## Features
 
-### Dashboard Components
+<img width="497" height="454" alt="Screenshot 2025-08-11 at 5 24 41 PM" src="https://github.com/user-attachments/assets/a65e71e2-d8a4-4f77-bc59-b2079de6f676" />
+
 - **Community Statistics**: Animated metric cards with real-time data display
 - **Growth Visualization**: Interactive charts showing member progression over time
 - **Event Timeline**: Chronological listing of community events with details
